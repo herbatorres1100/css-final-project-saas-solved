@@ -153,16 +153,17 @@ button:hover {
   left: 380px;
   border-radius: 40px;
   padding: 16px;
-  animation: slide-in 2s linear
+  animation: slide-in 2s linear;
 }
 
 @keyframes slide-in {
+
   0% {
-    left: 0
+    transform: translateX(-300%)
   }
 
   100% {
-    left: 80%
+    transform: translateX(0%)
   }
   
 }
@@ -174,8 +175,19 @@ button:hover {
   left: 175px;
   border-radius: 40px;
   padding: 16px;
+  animation: slide-in 2s linear;
+}
 
+@keyframes slide-in {
 
+  0% {
+    transform: translateX(-300%)
+  }
+
+  100% {
+    transform: translateX(0%)
+  }
+  
 }
 .calender {
   width: 80px;
@@ -183,9 +195,21 @@ button:hover {
   top: 310px;
   left: 384px;
   border-radius: 40px;
-  padding: 16px
+  padding: 16px;
+  animation: slide-up 2s linear;
 
-}
+  }
+
+  @keyframes slide-up {
+    0% {
+      transform: translateY(200%)
+    }
+  
+    100% {
+      transform: translateY(0%)
+    }
+  }
+
 .google-ads {
   width: 60px;
   height: 60px;
@@ -193,8 +217,19 @@ button:hover {
   left: 155px;
   border-radius: 30px;
   padding: 10px;
-
+  animation: slide-up 2s linear;
 }
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(200%)
+  }
+
+  100% {
+    transform: translateY(0%)
+  }
+}
+
 .google {
   width: 60px;
   height: 60px;
@@ -202,19 +237,21 @@ button:hover {
   left: 64px;
   border-radius: 30px;
   padding: 10px;
-  animation: slide-in 2s linear
+  animation: slide-in 2s linear;
 }
 
 @keyframes slide-in {
   0% {
-    left: 0
+    transform: translateX(-300%)
   }
 
   100% {
-    left: 80%
+    transform: translateX(0%)
   }
-  
 }
+
+
+
 
 .paypal{
   width: 80px;
@@ -223,8 +260,20 @@ button:hover {
   left: 44px;
   border-radius: 40px;
   padding: 16px;
-
+  animation: slide-in 2s linear;
 }
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(-300%)
+  }
+
+  100% {
+    transform: translateX(0%)
+  }
+}
+
+
 .weave {
   width: 80px;
   height: 80px;
@@ -232,6 +281,16 @@ button:hover {
   left: 262px;
   border-radius: 40px;
   padding: 16px;
+  animation: slide-up 2s linear;
+}
 
+@keyframes slide-up {
+  0% {
+    transform: translateY(200%)
+  }
+
+  100% {
+    transform: translateY(0%)
+  }
 }
 

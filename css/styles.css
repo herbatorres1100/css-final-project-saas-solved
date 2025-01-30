@@ -615,12 +615,11 @@ button:hover {
 .hire-us-section {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 0 auto;
-  padding-top: 30px;
   width: 1024px;
   height: 708px;
   background-color: #20335b;
-  border: 1px solid black;
 }
 
 .left-hire-section {
@@ -628,8 +627,12 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   gap: 50px;
-  padding-left: 70px;
-  width: 428px;
+  width: 482px;
+  height: 648px;
+}
+.right-hire-section {
+  display: flex;
+  width: 482px;
   height: 648px;
 }
 
@@ -717,14 +720,6 @@ button:hover {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-}
-
-.right-hire-section {
-  box-sizing: border-box;
-  display: flex;
-  width: 482px;
-  height: 648px;
-  border: 1px solid black;
 }
 
 form {
@@ -875,7 +870,6 @@ footer {
   align-items: center;
   box-sizing: border-box;
   margin: 0 auto;
-  border: 1px solid black;
   width: 1024px;
   height: 246px;
 }
@@ -885,7 +879,6 @@ footer {
   justify-content: space-between;
   width: 964px;
   height: 166px;
-
   justify-content: space-evenly;
 }
 

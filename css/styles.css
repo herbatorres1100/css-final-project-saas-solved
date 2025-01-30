@@ -5,6 +5,20 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+@font-face {
+  font-family: "SFPro"; /* Custom name you assign */
+  src: url(/fonts/SFPRODISPLAYREGULAR.OTF) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SFPro2"; /* Custom name you assign */
+  src: url(/fonts/SFPRODISPLAYBOLD.OTF) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
 .header-top {
   display: flex;
   justify-content: center;
@@ -385,7 +399,7 @@ button:hover {
   background-color: #ecf2ff;
 }
 
-span {
+.dot {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -618,4 +632,386 @@ span {
   gap: 10px;
   padding: 4px 10px 4px 10;
   background-color: #01c9a7;
+}
+
+.hire-us-section {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 30px;
+  width: 1024px;
+  height: 708px;
+  background-color: #20335b;
+  border: 1px solid black;
+}
+
+.left-hire-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  padding-left: 70px;
+  width: 428px;
+  height: 648px;
+}
+
+.left-section-top {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 370px;
+  height: 180px;
+}
+
+.left-section-bottom {
+  display: flex;
+  flex-direction: column;
+  width: 208px;
+  height: 123px;
+}
+
+.hire-us-title {
+  margin: 0;
+  width: 92px;
+  height: 31px;
+  font-weight: 700;
+  font-size: 26px;
+  color: #ffffff;
+}
+
+.hire-us-caption {
+  margin-top: 0;
+  width: 370px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #677788;
+}
+
+.hire-line {
+  display: block;
+  width: 370px;
+  height: 1px;
+  min-height: 1px;
+  background-color: #ffffff;
+}
+
+.phrase {
+  width: 363px;
+  height: 48px;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  width: 208px;
+  height: 43px;
+  padding-right: 20px;
+  gap: 4px;
+}
+
+.charlotte {
+  width: 144px;
+  height: 22px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.head-of-com {
+  width: 188px;
+  height: 17px;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: left;
+  color: #677788;
+}
+
+.left-section-bottom img {
+  margin-top: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.right-hire-section {
+  box-sizing: border-box;
+  display: flex;
+  width: 482px;
+  height: 648px;
+  border: 1px solid black;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 482px;
+  height: 648px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.form-data {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 392px;
+  height: 496px;
+  gap: 20px;
+}
+
+.form-data p {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  width: 392px;
+  height: 48px;
+}
+
+.name-group {
+  display: flex;
+  justify-content: space-between;
+  width: 392px;
+  height: 44px;
+  gap: 20px;
+}
+
+.first-name,
+.last-name,
+.drop-down {
+  width: 186px;
+  height: 44px;
+  border: 1px solid #e6e8f2;
+  border-radius: 5px;
+}
+
+.email-group {
+  display: flex;
+  width: 392px;
+  height: 44px;
+}
+
+.email {
+  width: 392px;
+  height: 44px;
+  border: 1px solid #e6e8f2;
+  border-radius: 5px;
+}
+
+.select-group {
+  display: flex;
+  justify-content: space-between;
+  width: 392px;
+  height: 44px;
+  gap: 20px;
+}
+
+.comment-box {
+  width: 392px;
+  height: 150px;
+  border-radius: 5px;
+  border: 1px solid #e6e8f2;
+  font-family: "SFPro", sans-serif;
+  font-size: 14px;
+}
+
+.agreement-group {
+  display: flex;
+  width: 392px;
+  height: 76px;
+  gap: 10px;
+}
+
+.input-cb {
+  width: 25px;
+  height: 28px;
+}
+
+.checkbox {
+  width: 25px;
+  height: 24px;
+  border-radius: 3px;
+  border-color: #e6e8f2;
+}
+
+.agree-comment {
+  width: 351px;
+  height: 44px;
+  font-size: 14px;
+  font-weight: 510;
+  color: #828282;
+}
+
+.privacy {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 351px;
+  height: 22px;
+  top: 420px;
+  right: 50px;
+}
+
+.privacy p {
+  width: 131px;
+  height: 22px;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "SFPro", sans-serif;
+}
+
+.privacy :last-of-type {
+  color: #2476ff;
+}
+
+.action-button {
+  position: relative;
+  top: 40px;
+  display: flex;
+  justify-content: center;
+  width: 392px;
+  height: 44px;
+}
+
+.action-button button {
+  border: 1px #2476ff solid;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 700;
+  background-color: #2476ff;
+  color: #ffffff;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+  border: 1px solid black;
+  width: 1024px;
+  height: 246px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 964px;
+  height: 166px;
+
+  justify-content: space-evenly;
+}
+
+.frame1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 251px;
+  height: 93.76;
+  font-family: "SFPro";
+  font-size: 14px;
+  font-weight: 510;
+  color: #677788;
+  gap: 30px;
+}
+
+.fa-location-arrow {
+  width: 11px;
+  height: 14px;
+}
+
+.frame1 img {
+  width: 100px;
+  height: 29.76;
+}
+
+.frame1 span {
+  width: 231px;
+  height: 17px;
+}
+
+.location-info {
+  display: flex;
+  gap: 6px;
+}
+
+.telephone {
+  display: flex;
+  color: #2576ff;
+  gap: 6px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+  font-family: "SFPro2", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+}
+
+.frame2 p {
+  margin: 0;
+  padding: 0;
+}
+
+.frame2 {
+  display: flex;
+  flex-direction: column;
+  font-family: "SFPro";
+  color: #677788;
+  gap: 25px;
+  font-size: 14px;
+  font-weight: 510;
+  width: 143px;
+  height: 168px;
+  position: relative;
+}
+
+.bottom-section {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.career::after {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: "We're Hiring";
+  position: absolute;
+  width: 55px;
+  height: 18px;
+  background-color: #2576ff;
+  color: white;
+  border-radius: 3px;
+  font-size: 8px;
+  font-family: "SFPro";
+  font-weight: 510;
+  bottom: 50%;
+  right: 30%;
+}
+
+.release {
+  color: #2476ff;
+}
+
+.user {
+  display: flex;
+  gap: 8px;
 }

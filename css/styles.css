@@ -39,17 +39,26 @@ body {
   padding: 20px;
 }
 
-nav {
+.nav-header {
   display: flex;
   width: 471px;
   height: 57px;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
   padding: 20px;
   font-family: "Inter", sans-serif;
   font-size: 14px;
   font-weight: 300;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #2476ff;
 }
 
 button {
@@ -86,6 +95,10 @@ button:hover {
   gap: 20px;
 }
 
+.learn-more {
+  margin: auto 0;
+}
+
 .left-part,
 .right-part {
   display: flex;
@@ -94,6 +107,7 @@ button:hover {
 }
 
 .intro-text {
+  display: flex;
   width: 334px;
   height: 144px;
   font-size: 40px;
@@ -105,6 +119,7 @@ button:hover {
 }
 
 .subtitle {
+  display: flex;
   width: 334px;
   height: 17px;
   font-size: 14px;
@@ -651,6 +666,10 @@ button:hover {
   height: 123px;
 }
 
+.middle-hire-us {
+  display: flex;
+}
+
 .hire-us-title {
   margin: 0;
   width: 92px;
@@ -874,6 +893,12 @@ footer {
   height: 246px;
 }
 
+.main-footer-container {
+  display: flex;
+  flex-direction: column;
+  width: 1024;
+}
+
 .footer-container {
   display: flex;
   justify-content: space-between;
@@ -921,7 +946,7 @@ footer {
   gap: 6px;
 }
 
-.nav {
+.nav-icon {
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -952,6 +977,10 @@ h4 {
   width: 143px;
   height: 168px;
   position: relative;
+}
+
+.frame-bottom {
+  display: flex;
 }
 
 .bottom-section {
@@ -985,4 +1014,197 @@ h4 {
 .user {
   display: flex;
   gap: 8px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .top-header {
+    box-sizing: border-box;
+    display: flex;
+    margin: 0 auto;
+    width: 772px;
+    height: 86px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-header {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #2476ff;
+  }
+
+  .hero-section {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 772px;
+    height: 664px;
+    background-image: url(/assets/bg/background-top.svg);
+  }
+
+  .why-section {
+    width: 768px;
+    height: 354px;
+  }
+
+  .left-part {
+    display: flex;
+    width: 712px;
+    height: 305px;
+  }
+
+  .left-part p {
+    display: flex;
+    justify-content: center;
+    width: 772px;
+    height: 48px;
+  }
+
+  .bottom-left {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .learn-more {
+    margin: auto 0;
+  }
+
+  .right-part {
+    display: flex;
+    margin-top: 100px;
+    width: 482px;
+    height: 506px;
+  }
+
+  .why-section {
+    margin-top: 100px;
+  }
+
+  .pricing-table {
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+    height: 833px;
+    align-items: center;
+  }
+
+  .plans-feature-list {
+    margin: 0 auto;
+    width: 680px;
+    height: 373;
+  }
+
+  .pricing-section {
+    display: flex;
+    width: 768px;
+    height: 1013px;
+  }
+
+  .pricing-title {
+    display: flex;
+    justify-content: start;
+    margin: 0 auto;
+    width: 768px;
+    height: 54px;
+  }
+
+  .hire-us-section {
+    width: 768px;
+    height: 984px;
+  }
+
+  .middle-hire-us {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-hire-section {
+    display: flex;
+    flex-direction: row;
+    width: 708px;
+    height: 240px;
+  }
+
+  .right-hire-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .form-container {
+    display: flex;
+    justify-content: center;
+    width: 648px;
+    height: 624px;
+  }
+
+  .form-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 648px;
+    height: 624px;
+  }
+
+  .name-group,
+  .select-group,
+  .comment-box {
+    width: 588px;
+  }
+
+  .agreement-group .privacy {
+    width: 588px;
+  }
+
+  .email-group,
+  .email {
+    width: 588px;
+  }
+
+  .first-name,
+  .last-name,
+  .drop-down {
+    width: 284px;
+  }
+
+  .action-button {
+    width: 125px;
+    position: relative;
+    top: 5px;
+  }
+
+  .main-footer-container {
+    display: flex;
+    justify-content: center;
+    width: 768px;
+    height: 381px;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 60px;
+    width: 708px;
+    height: 381px;
+  }
+
+  .frame-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    width: 417px;
+    height: 381px;
+  }
 }

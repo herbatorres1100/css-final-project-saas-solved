@@ -16,7 +16,10 @@
   <body>
     <div class="top-header">
       <img src="/assets/logos/logo-front.svg" class="front-logo" alt="logo" />
-      <nav>
+      <button class="menu-toggle">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav class="nav-header">
         <a href="#" class="header-links">Home</a>
         <a href="#" class="header-links">Features</a>
         <a href="#" class="header-links">Learn</a>
@@ -40,7 +43,7 @@
             />
             Play Video
           </button>
-          <p class="learn-more">Learn More</p>
+          <span class="learn-more">Learn More</span>
         </div>
       </div>
       <div class="right-part">
@@ -89,7 +92,7 @@
         </div>
       </div>
     </div>
-
+    <div>
     <div class="pricing-section">
       <div class="pricing-title">
         <p>Pricing</p>
@@ -167,9 +170,13 @@
         </div>
       </div>
     </div>
+  </div>
+
 
     <div class="hire-us-section">
-      <div>
+      
+      <div class="middle-hire-us">
+        
         <div class="left-hire-section">
           <div class="left-section-top">
             <p class="hire-us-title">Hire Us</p>
@@ -182,73 +189,83 @@
               have total creative freedom...”
             </p>
           </div>
-          <div class="left-section-bottom">
-            <div class="person">
-              <div class="charlotte">Charlotte Moore</div>
-              <div class="head-of-com">Head of Commercials, Slack</div>
+            <div class="left-section-bottom">
+              <div class="person">
+                <div class="charlotte">Charlotte Moore</div>
+                <div class="head-of-com">Head of Commercials, Slack</div>
+              </div>
+              <img src="/assets/images/man_one.jpg" alt="mans-face" />
             </div>
-            <img src="/assets/images/man_one.jpg" alt="mans-face" />
+          </div>
+          
+      
+       
+        <div class="right-hire-section">
+          <form class="form-container">
+            <div class="form-data">
+              <p>Fill out the form and we'll be in touch as soon as possible</p>
+              <div class="name-group">
+                <input
+                  type="text"
+                  class="first-name"
+                  placeholder="First name"
+                />
+                <input type="text" class="last-name" placeholder="Last name" />
+              </div>
+              <div class="email-group">
+                <input type="email" class="email" placeholder="Email" />
+              </div>
+              <div class="select-group">
+                <select id="budget" name="budget" class="drop-down">
+                  <option value="" disabled selected hidden>Budget</option>
+                  <option value="$100">$100</option>
+                  <option value="$200">$200</option>
+                  <option value="$300">$400</option>
+                  <option value="$400">$400</option>
+                </select>
+                <select id="country" name="country" class="drop-down">
+                  <option value="" disabled selected hidden>Country</option>
+                  <option value="USA">USA</option>
+                  <option value="Canada">Canada</option>
+                  <option value="Europe">Europe</option>
+                  <option value="Mexico">Mexico</option>
+                </select>
+              </div>
+              <textarea
+                for="comment"
+                class="comment-box"
+                placeholder="Tell us more about your project, needs, and timeline,
+ please..."
+              ></textarea>
+              <div class="agreement-group">
+                <div class="input-cb">
+                  <input type="checkbox" class="checkbox" />
+                </div>
+                <p class="agree-comment">
+                  Yes, I'd like to receive occasional marketing emails from
+                  Front. I have the right to opt out at any time.
+                </p>
+              </div>
+              <div class="privacy">
+                <p>View privacy policy</p>
+                <p>View privacy policy</p>
+              </div>
+              <div class="action-button">
+                <button>Submit Form</button>
+              </div>
+            </div>
+          </form>
           </div>
         </div>
       </div>
-      <div class="right-hire-section">
-        <form>
-          <div class="form-data">
-            <p>Fill out the form and we'll be in touch as soon as possible</p>
-            <div class="name-group">
-              <input type="text" class="first-name" placeholder="First name" />
-              <input type="text" class="last-name" placeholder="Last name" />
-            </div>
-            <div class="email-group">
-              <input type="email" class="email" placeholder="Email" />
-            </div>
-            <div class="select-group">
-              <select id="budget" name="budget" class="drop-down">
-                <option value="" disabled selected hidden>Budget</option>
-                <option value="$100">$100</option>
-                <option value="$200">$200</option>
-                <option value="$300">$400</option>
-                <option value="$400">$400</option>
-              </select>
-              <select id="country" name="country" class="drop-down">
-                <option value="" disabled selected hidden>Country</option>
-                <option value="USA">USA</option>
-                <option value="Canada">Canada</option>
-                <option value="Europe">Europe</option>
-                <option value="Mexico">Mexico</option>
-              </select>
-            </div>
-            <textarea
-              for="comment"
-              class="comment-box"
-              placeholder="Tell us more about your project, needs, and timeline,
- please..."
-            ></textarea>
-            <div class="agreement-group">
-              <div class="input-cb">
-                <input type="checkbox" class="checkbox" />
-              </div>
-              <p class="agree-comment">
-                Yes, I'd like to receive occasional marketing emails from Front.
-                I have the right to opt out at any time.
-              </p>
-            </div>
-            <div class="privacy">
-              <p>View privacy policy</p>
-              <p>View privacy policy</p>
-            </div>
-            <div class="action-button">
-              <button>Submit Form</button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-    <footer>
+      
+   
+</div>
+    <footer class="main-footer-container">
       <div class="footer-container">
         <div class="frame1">
           <img src="/assets/logos/logo-front.svg" alt="logo" />
-          <div class="nav">
+          <div class="nav-icon">
             <div class="location-info">
               <i class="fa-solid fa-location-arrow"></i
               ><span>153 Williamson Plaza, Maggieberg</span>
@@ -259,6 +276,7 @@
             </div>
           </div>
         </div>
+        <div class="frame-bottom">
         <div class="frame2">
           <h4>Company</h4>
           <div class="bottom-section">
@@ -278,6 +296,7 @@
             <p>Pricing</p>
           </div>
         </div>
+        
         <div class="frame2">
           <h4>Documentation</h4>
           <div class="bottom-section">
@@ -298,10 +317,11 @@
             <div class="user">
               <i class="fa-solid fa-circle-user"></i>
               <span>Your Account</span>
+              </div>
+            </div>
             </div>
           </div>
-        </div>
-      </div>
+       </div>
     </footer>
   </body>
 </html>

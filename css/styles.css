@@ -884,6 +884,10 @@ form {
   background-color: #2476ff;
   color: #ffffff;
 }
+.action-button button:hover{
+  background-color: #ffffff;
+  color: #2476ff;
+}
 
 footer {
   display: flex;
@@ -989,7 +993,6 @@ h4 {
 .bottom-section {
   display: flex;
   flex-direction: column;
-
 }
 
 .career::after {
@@ -1014,10 +1017,11 @@ h4 {
   color: #2476ff;
 }
 
-.user {
-  display: flex;
-  gap: 8px;
-}
+
+
+
+
+
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .top-header {
@@ -1687,11 +1691,13 @@ h4 {
  .bottom-text > .hire-us {
   order: 3;
  }
+ 
+ .user {
   
+ }
+ 
 }
 
-.user {
-  margin: 0 auto;
-}
 
-}
+
+

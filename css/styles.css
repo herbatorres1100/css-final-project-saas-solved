@@ -485,15 +485,19 @@ button:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 290px;
   height: 194px;
-
   margin-top: 20px;
+}
+
+.plan-header, .start-buisness {
+  text-align: center;
 }
 
 .plan-footer {
   margin: 40px;
-  align-self: flex-start;
+  align-self: center;
   width: 137px;
   height: 73px;
 }
@@ -1248,9 +1252,23 @@ h4 {
   }
 
   .left-part {
+    display: flex;
     width: 328px;
     height: 235px;
     text-align: center;
+  }
+
+  .video-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    width: 137px;
+    height: 48px;
+  }
+
+  .play-circle {
+    margin: 2px;
   }
 
   .bottom-left {
@@ -1259,6 +1277,7 @@ h4 {
 
   .right-part {
     display: flex;
+    margin-top: 70px;
     position: relative;
     width: 328px;
     height: 309px;
@@ -1281,6 +1300,8 @@ h4 {
   .asana {
     width: 80px;
     height: 80px;
+    top: 0px;
+    left: 248px;
     border-radius: 40px;
     padding: 16px;
   }
@@ -1288,6 +1309,8 @@ h4 {
   .atlassian {
     width: 80px;
     height: 80px;
+    top: 0px;
+    left:114px;
     border-radius: 40px;
     padding: 16px;
   }
@@ -1295,6 +1318,8 @@ h4 {
   .calender {
     width: 80px;
     height: 80px;
+    top: 219px;
+    left: 239px;
     border-radius: 40px;
     padding: 16px;
   }
@@ -1302,6 +1327,8 @@ h4 {
   .google-ads {
     width: 60px;
     height: 60px;
+    top: 209px;
+    left: 106px;
     border-radius: 30px;
     padding: 10px;
   }
@@ -1309,7 +1336,8 @@ h4 {
   .google {
     width: 60px;
     height: 60px;
-    right: 200px;
+    top: 0%;
+    left: 0%;
     border-radius: 30px;
     padding: 10px;
   }
@@ -1317,6 +1345,8 @@ h4 {
   .paypal {
     width: 80px;
     height: 80px;
+    top: 99px;
+    left: 0px;
     border-radius: 40px;
     padding: 16px;
   }
@@ -1324,6 +1354,8 @@ h4 {
   .weave {
     width: 80px;
     height: 80px;
+    left: 184px;
+    top: 99px;
     border-radius: 40px;
     padding: 16px;
   }
@@ -1642,6 +1674,20 @@ h4 {
   width: 175px;
   height: 229px;
   gap: 20px;
+}
+
+.bottom-text > .customer {
+ order: 2;
+}
+
+.bottom-text > .blog {
+  order: 1;
+ }
+
+ .bottom-text > .hire-us {
+  order: 3;
+ }
+  
 }
 
 .user {

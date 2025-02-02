@@ -666,9 +666,7 @@ button:hover {
   height: 123px;
 }
 
-.middle-hire-us {
-  display: flex;
-}
+
 
 .hire-us-title {
   margin: 0;
@@ -981,12 +979,13 @@ h4 {
 
 .frame-bottom {
   display: flex;
+  justify-content: center;
 }
 
 .bottom-section {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+
 }
 
 .career::after {
@@ -1003,7 +1002,7 @@ h4 {
   font-size: 8px;
   font-family: "SFPro";
   font-weight: 510;
-  bottom: 50%;
+  bottom: 53%;
   right: 30%;
 }
 
@@ -1130,14 +1129,13 @@ h4 {
   }
 
   .hire-us-section {
+    display: flex;
+    flex-direction: column;
     width: 768px;
     height: 984px;
   }
 
-  .middle-hire-us {
-    display: flex;
-    flex-direction: column;
-  }
+
 
   .left-hire-section {
     display: flex;
@@ -1224,7 +1222,7 @@ h4 {
     width: 360px;
     height: 86px;
     justify-content: space-between;
-    margin: 0;
+    margin: 0 auto;
   }
 
   .nav-header {
@@ -1413,9 +1411,241 @@ h4 {
     height: 1337px;
   }
 
-  .left-hire-section,
-  .right-hire-section {
-    width: 362px;
-    height: 467px;
+  .left-hire-section {
+    display: flex;
+    width: 338px;
+    height: 457px;
   }
+
+  .right-hire-section {
+    display: flex;
+    justify-content: center;
+    width: 362px;
+    height: 880px;
+  }
+
+  .hire-us-caption {
+    display: flex;
+    justify-content: center;
+    width: 330px;
+    height: 24px;
+  }
+
+  .hire-line {
+    width: 330px;
+  }
+
+  .phrase {
+    text-align: center;
+    width: 330px;
+    height: 72px;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 330px;
+    height: 820px;
+  }
+
+  .form-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 270px;
+    height: 678px;
+  }
+
+  .form-data p {
+    width: 270px;
+    height: 48px;
+  }
+
+  .name-group {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 180px;
+  }
+
+  .first-name, .last-name, .email{
+    width: 270px;
+    height: 44px;
+  }
+
+  .select-group {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 108px;
+  }
+
+  .comment-box {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 150px;
+    position: relative;
+  }
+  
+  .agreement-group {
+    width: 229px;
+    height: 120px;
+  }
+
+  .privacy {
+    position: absolute;
+    top: 490px;
+    left: 10px;
+    width: 131px;
+    height: 22px;
+  }
+
+  .privacy p:last-of-type {
+    display: none;
+  }
+
+  .action-button {
+    margin: 0 auto;
+    width: 125px;
+    height: 45px;
+  }
+
+  .drop-down {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 44px;
+  }
+
+  .left-section-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 338px;
+    height: 204px;
+  }
+
+  .left-section-bottom, img{
+    margin: 0 auto;
+  }
+
+.left-section-bottom {
+  display: flex;
+  justify-content: center;
+  width: 330px;
+  height: 133px;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  width: 330px;
+  height: 43px;
+}
+
+.main-footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 360px;
+  height: 1251.76px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 328px;
+  height: 1231.76px;
+}
+
+.frame2 .career {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.career::after {
+  right: 30px;
+  top: 92px;
+}
+
+.frame1 {
+  text-align: center;
+  width: 328px;
+  height: 111.76px;
+}
+
+.frame1 img {
+  width: 100px;
+  height: 29.76px;
+}
+
+.nav-icon {
+  margin: 0 auto;
+  width: 316px;
+  height: 62px;
+}
+
+.location-info {
+  margin: 0 auto;
+}
+
+.telephone{
+  margin: 0 auto;
+  width: 316px;
+  height: 21px;
+}
+
+.telephone {
+  width: 186px;
+  height: 21px;
+  
+}
+
+.frame-bottom {
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  text-align: center;
+  width: 328px;
+  height: 880px;
+}
+
+.frame-bottom h4 {
+  font-size: 20px;
+  font-weight: 860;
+}
+
+.frame-bottom p {
+  font-size: 18px;
+  font-weight: 510;
+}
+
+.frame2 {
+  width: 175px;
+  height: 255.5px;
+}
+
+.frame2 h4 {
+  width: 145px;
+  height: 24px;
+  margin: 0 auto;
+
+}
+.bottom-section {
+  margin: 0 auto;
+  width: 175px;
+  height: 229px;
+  gap: 20px;
+}
+
+.user {
+  margin: 0 auto;
+}
+
 }

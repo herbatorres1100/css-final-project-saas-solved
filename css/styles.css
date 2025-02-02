@@ -896,7 +896,7 @@ footer {
 .main-footer-container {
   display: flex;
   flex-direction: column;
-  width: 1024;
+  width: 1024px;
 }
 
 .footer-container {

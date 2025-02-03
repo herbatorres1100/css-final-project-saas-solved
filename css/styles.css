@@ -1445,12 +1445,17 @@ a:link {
     flex-direction: column;
   }
 
+  .plan-feature-one img {
+    margin: 0;
+  }
+
+
   .row-one,
   .row-two {
     display: flex;
     flex-direction: column;
     width: 328px;
-    height: 426px;
+    height: 450px;
   }
 
   .hire-us-section {

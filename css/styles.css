@@ -1238,7 +1238,7 @@ a:link {
   }
 }
 
-@media  (max-width: 767px) {
+@media  (min-width: 360px) and (max-width: 767px) {
   .top-header {
     width: 360px;
     height: 86px;

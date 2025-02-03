@@ -852,7 +852,6 @@ form {
 
 .privacy {
   display: flex;
-  position: absolute;
   justify-content: center;
   width: 351px;
   height: 22px;
@@ -1541,14 +1540,12 @@ a:link {
   
   .agreement-group {
     width: 229px;
-    height: 120px;
+    height: 100px;
   }
 
   .privacy {
-    position: absolute;
-    top: 490px;
-    left: 10px;
-    width: 131px;
+    margin-left: 35px;
+    width: 229px;
     height: 22px;
   }
 

@@ -508,7 +508,7 @@ button:hover {
 }
 
 .price {
-  width: 114px;
+  width: 150px;
   height: 61px;
   font-weight: 510;
   font-size: 20px;
@@ -516,7 +516,7 @@ button:hover {
 }
 
 .price::before {
-  content: "59";
+  content: "$59";
   width: 63px;
   height: 61px;
   font-weight: 500;
@@ -1028,9 +1028,7 @@ a:link {
   right: 30%;
 }
 
-.release {
-  color: #2476ff;
-}
+
 
 
 
